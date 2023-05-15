@@ -22,172 +22,195 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtNombreApellido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:text="@string/txtNombreApellido"
         android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/fieldApellidoNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        android:textColor="#FFFDFD"
+        android:text="@string/fieldApellidoNombre"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#F8F8F8"
         android:textSize="8sp"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="@+id/txtNombreApellido"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombreApellido" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txtCorreo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        android:text="@string/txtCorreo"
+        android:textColor="#FAF7F7"
+        app:layout_constraintStart_toStartOf="@+id/fieldApellidoNombre"
+        app:layout_constraintTop_toBottomOf="@+id/fieldApellidoNombre" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/fieldEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textEmailAddress"
+        android:text="@string/fieldEmail"
+        android:textColor="#F3EFEF"
         android:textSize="8sp"
-        app:layout_constraintStart_toStartOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintStart_toStartOf="@+id/txtCorreo"
+        app:layout_constraintTop_toBottomOf="@+id/txtCorreo" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txtClave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        android:shadowColor="#F4F2F2"
+        android:text="@string/txtClave"
+        android:textColor="#F3EBEB"
+        app:layout_constraintStart_toStartOf="@+id/fieldEmail"
+        app:layout_constraintTop_toBottomOf="@+id/fieldEmail" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/fieldClave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:text="@string/fieldClave"
+        android:textColor="#F6F2F2"
         android:textSize="8sp"
-        app:layout_constraintStart_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintStart_toStartOf="@+id/txtClave"
+        app:layout_constraintTop_toBottomOf="@+id/txtClave" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txtDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        android:shadowColor="#F3ECEC"
+        android:text="@string/txtDate"
+        android:textColor="#F6F2F2"
+        app:layout_constraintStart_toStartOf="@+id/fieldClave"
+        app:layout_constraintTop_toBottomOf="@+id/fieldClave" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/fieldDate"
         android:layout_width="144dp"
         android:layout_height="40dp"
         android:layout_marginTop="8dp"
         android:drawableRight="@drawable/baseline_date_range_24"
         android:ems="10"
         android:inputType="date"
+        android:text="@string/fieldDate"
+        android:textColor="#F8F3F3"
         android:textSize="8sp"
-        app:layout_constraintStart_toStartOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintStart_toStartOf="@+id/txtDate"
+        app:layout_constraintTop_toBottomOf="@+id/txtDate" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/txtCarrera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/editTextDate"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+        android:shadowColor="#F1EAEA"
+        android:text="@string/txtCarrera"
+        android:textColor="#EAE6E6"
+        app:layout_constraintStart_toStartOf="@+id/fieldDate"
+        app:layout_constraintTop_toBottomOf="@+id/fieldDate" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        app:layout_constraintStart_toStartOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/textView6">
+        app:layout_constraintStart_toStartOf="@+id/txtCarrera"
+        app:layout_constraintTop_toBottomOf="@+id/txtCarrera">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/rbIS"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="RadioButton" />
+            android:text="@string/rbIS"
+            android:textColor="#FDFCFC" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/rbIA"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="RadioButton" />
+            android:text="@string/rbIA"
+            android:textColor="#EAE6E6" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/rbIM"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="RadioButton" />
+            android:text="@string/rbIM"
+            android:textColor="#EFE4E4" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/rbA"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="RadioButton" />
+            android:text="@string/rbA"
+            android:textColor="#F3EDED" />
     </RadioGroup>
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/txtPregunta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="TextView"
+        android:text="@string/txtPregunta"
+        android:textColor="#F8F4F4"
         app:layout_constraintStart_toStartOf="@+id/radioGroup"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/cbR"
         android:layout_width="121dp"
         android:layout_height="26dp"
-        android:text="CheckBox"
-        app:layout_constraintStart_toStartOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        android:text="@string/cbR"
+        android:textColor="#F1E6E6"
+        app:layout_constraintStart_toStartOf="@+id/txtPregunta"
+        app:layout_constraintTop_toBottomOf="@+id/txtPregunta" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/cbI"
         android:layout_width="121dp"
         android:layout_height="26dp"
-        android:text="CheckBox"
-        app:layout_constraintStart_toStartOf="@+id/checkBox"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+        android:text="@string/cbI"
+        android:textColor="#F4EEEE"
+        app:layout_constraintStart_toStartOf="@+id/cbR"
+        app:layout_constraintTop_toBottomOf="@+id/cbR" />
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/cbA"
         android:layout_width="121dp"
         android:layout_height="26dp"
-        android:text="CheckBox"
-        app:layout_constraintStart_toStartOf="@+id/checkBox2"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+        android:text="@string/cbA"
+        android:textColor="#F4DADA"
+        app:layout_constraintStart_toStartOf="@+id/cbI"
+        app:layout_constraintTop_toBottomOf="@+id/cbI" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/cbP"
         android:layout_width="121dp"
         android:layout_height="26dp"
-        android:text="CheckBox"
-        app:layout_constraintStart_toStartOf="@+id/checkBox3"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+        android:text="@string/cbP"
+        android:textColor="#FDF8F8"
+        app:layout_constraintStart_toStartOf="@+id/cbA"
+        app:layout_constraintTop_toBottomOf="@+id/cbA" />
 
     <Button
         android:id="@+id/BtnEnviar"
@@ -196,7 +219,7 @@
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="30dp"
         android:drawableLeft="@drawable/baseline_send_24"
-        android:text="Button"
+        android:text="@string/BtnEnviar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

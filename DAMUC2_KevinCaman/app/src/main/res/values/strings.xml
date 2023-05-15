@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">DAMUC2_KevinCaman</string>
+    <string name="txtNombreApellido">Apellidos y Nombre</string>
+    <string name="fieldApellidoNombre" />
+    <string name="txtCorreo">Correo Electrónico</string>
+    <string name="fieldEmail" />
+    <string name="txtClave">Clave</string>
+    <string name="fieldDate">dd/mm/aaaa</string>
+    <string name="fieldClave" />
+    <string name="txtDate">Fecha de Nacimiento</string>
+    <string name="txtCarrera">Carrera</string>
+    <string name="rbIS">Ingenieria de Sistemas</string>
+    <string name="rbIA">Ingenieria Ambiental</string>
+    <string name="rbIM">Ingenieria Mecánica</string>
+    <string name="rbA">Administración</string>
+    <string name="txtPregunta">¿Por qué medio se enteró de la convocatoria?</string>
+    <string name="cbR">Radio</string>
+    <string name="cbI">Internet</string>
+    <string name="cbA">Amigo</string>
+    <string name="cbP">Publicidad</string>
+    <string name="BtnEnviar">Enviar</string>
 </resources>
